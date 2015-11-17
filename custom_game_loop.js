@@ -45,12 +45,12 @@ function initialize() {
     customGameLoop.initialize(document.getElementById("canvas"));
     
     var starField = new StarField();   
-    starField.setDistance(1, 1000, 1);
+    starField.setDistance(0.5, 800, 0.1);
     //starField.createStars();
     customGameLoop.addElement(starField); 
     
     var starField2 = new StarField();   
-    starField2.setDistance(2, 500, 1.5);
+    starField2.setDistance(1, 500, 1);
     //starField2.createStars();
     customGameLoop.addElement(starField2); 
     
@@ -60,7 +60,7 @@ function initialize() {
     customGameLoop.addElement(voyager);
     
     var starField3 = new StarField();   
-    starField3.setDistance(4, 300, 2.5);
+    starField3.setDistance(1.5, 100, 2);
     //starField3.createStars();
     customGameLoop.addElement(starField3); 
     

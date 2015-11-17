@@ -112,9 +112,9 @@ StarField.prototype.generateColor = function(){
     var num = Math.random()*10;
     if(num <=7){
        color = colorArray[0]; 
-    } else if (num < 8){
-       color = colorArray[1];        
     } else if (num < 9){
+       color = colorArray[1];        
+    } else if (num < 9.5){
        color = colorArray[2];        
     } else if (num < 10){
        color = colorArray[3];        
